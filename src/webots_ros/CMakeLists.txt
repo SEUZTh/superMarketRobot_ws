@@ -4,7 +4,9 @@ project(webots_ros)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs sensor_msgs message_generation tf)
+find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs sensor_msgs message_generation tf cv_bridge image_transport)
+
+find_package(OpenCV REQUIRED COMPONENTS)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -29,6 +31,9 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs sensor_msgs messag
     RadarTarget.msg
     RecognitionObject.msg
     StringStamped.msg
+    arm.msg
+    move.msg
+    response.msg
   )
 
 ## Generate services in the 'srv' folder
@@ -240,6 +245,28 @@ add_dependencies(pioneer3at webots_ros_generate_messages_cpp)
 
 target_link_libraries(pioneer3at
 	${catkin_LIBRARIES}
+)
+
+#instructions for supermarket_robot node
+
+add_executable(supermarket_robot src/supermarket_robot.cpp)
+
+add_dependencies(supermarket_robot webots_ros_generate_messages_cpp)
+
+target_link_libraries(supermarket_robot
+	${catkin_LIBRARIES}
+	${OpenCV_LIBRARIES}
+)
+
+#instructions for my_youbot node
+
+add_executable(my_youbot src/my_youbot.cpp)
+
+add_dependencies(my_youbot webots_ros_generate_messages_cpp)
+
+target_link_libraries(my_youbot
+	${catkin_LIBRARIES}
+  ${OpenCV_LIBRARIES}
 )
 
 

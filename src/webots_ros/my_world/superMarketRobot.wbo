@@ -1,0 +1,51 @@
+#VRML_OBJ R2020b utf8
+DEF Robot2 Robot {
+  translation 1.1000088487903972 -0.018262303207903285 0.10000092902937226
+  rotation -0.023271479702237367 0.017642451905793236 -0.9995735001105323 0.0015797359859203422
+  children [
+    GPS {
+      translation 0 0.12 0
+      name "gps_youbot"
+      boundingObject Box {
+        size 0.01 0.01 0.01
+      }
+      physics Physics {
+      }
+    }
+    DEF Kinect_behind Kinect {
+      hidden position_0_0 -8.881784197001252e-16
+      translation -0.24 0.09 0
+      rotation 0 1 0 1.5707996938995747
+      name "Kinect_behind"
+    }
+    DEF Kinect_front Kinect {
+      hidden position_0_0 6.706853847799966e-16
+      translation 0.23 0.12 0
+      rotation 0 1 0 -1.5707996938995747
+      name "Kinect_front"
+    }
+    Youbot {
+      hidden position_0_0 -9.040924840218824e-10
+      hidden position_0_1 9.088231783144428e-10
+      hidden position_0_2 9.31714099012598e-10
+      hidden position_0_3 9.336755185021653e-10
+      hidden position_1_0 9.769344634411742e-07
+      hidden rotation_2 0 0 1 9.771344846937158e-07
+      hidden position_2_0 1.5700026190215004
+      hidden rotation_3 0 -0.9999999999999999 0 1.5700026190215004
+      hidden position_3_0 -2.635001475982686
+      hidden rotation_4 0 1 0 2.635001475982686
+      hidden position_4_0 1.7800004229959856
+      hidden rotation_5 0 -1 0 1.7800004229959854
+      hidden position_5_0 9.219833296163869e-08
+      hidden rotation_6 0 0 1 9.424321830774485e-08
+      hidden position_6_0 1.2319276002173541e-11
+      hidden position_6_1 -1.2317474048128417e-11
+    }
+  ]
+  name "robot(1)"
+  physics Physics {
+  }
+  linearVelocity 3.7175454391591354e-10 7.795574369049482e-10 -1.1141819464032882e-08
+  angularVelocity -1.6720075215752755e-07 -3.8025981644900205e-10 -2.4845588268013595e-09
+}

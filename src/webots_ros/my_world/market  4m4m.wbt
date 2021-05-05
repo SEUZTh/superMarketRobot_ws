@@ -1,0 +1,579 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation 0.11394074420931814 -0.9855178590221927 -0.12558684786768243 4.203476471506443
+  position 2.8374361170744935 1.3077027427912233 -2.284796090594095
+}
+Background {
+  skyColor [
+    1 1 1
+  ]
+}
+DirectionalLight {
+  direction 0 -1 0
+  intensity 2.3
+}
+CerealBox {
+  translation 0.20570212948063515 0.0010538000288151939 0.4887092918591427
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(8)"
+}
+CerealBox {
+  translation 0.293979 0.0010538 -0.421117
+  rotation 0.9999980637440472 -0.001920797930897775 0.0004278357924561409 -4.185390434669087e-14
+  name "cereal box(17)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+JamJar {
+  translation -0.5421754105044778 0.0007009500074381322 -0.48397720010958895
+  rotation -1.398441290331802e-15 1 1.3692975103217172e-16 0.26272416686682903
+  name "jam jar(2)"
+}
+BiscuitBox {
+  translation 0.528204 0.0011715200118256608 0.250415
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(7)"
+  size 0.14 0.18 0.08
+}
+BeerBottle {
+  hidden linearVelocity_0 -351.3993452814912 -220.4891924568071 137.91284407500197
+  hidden angularVelocity_0 2426.702450520892 -8990.826233490896 -3643.6463681054192
+  translation -29332.074423404425 15760.880941154628 11511.743351355328
+  rotation 0.5452304436169794 0.8186906257914269 -0.1801927373521853 -2.3891730496897576
+}
+HoneyJar {
+  translation -0.535155 0.00070095 -0.173166
+  rotation -2.898663148710958e-16 1 -5.454999589724316e-16 -0.2583475746151688
+  name "honey jar(2)"
+}
+DEF soda Can {
+  translation -0.471963 0.0623157 0.484607
+  rotation -5.116289655608877e-11 -1 -6.0579968776014605e-12 2.02753561433401e-06
+  name "can(1)"
+}
+WaterBottle {
+  translation 0.868232 -0.0008481 -1.74134
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(1)"
+}
+WaterBottle {
+  translation 0.629249 -0.0008481 -1.74428
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(6)"
+}
+WaterBottle {
+  translation -0.378319 -0.0008481 -1.79105
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(5)"
+}
+WaterBottle {
+  translation 0.375493 -0.0008481 -1.74333
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(4)"
+}
+Floor {
+  name "floor(4)"
+  size 4 4
+}
+DEF soda Can {
+  translation -1.79564 0.0623157 0.3787
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(5)"
+}
+DEF soda Can {
+  translation -1.81336 0.0623157 -0.110893
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(2)"
+}
+BiscuitBox {
+  translation -1.83118 0.2 -0.125182
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(8)"
+  size 0.14 0.18 0.08
+}
+BeerBottle {
+  translation -0.142497 1.33227e-15 1.81403
+  name "beer bottle(8)"
+}
+HoneyJar {
+  translation -0.603524 0.4 -1.79268
+  rotation -2.898663148710958e-16 1 -5.454999589724316e-16 -0.2583475746151688
+  name "honey jar(1)"
+}
+HoneyJar {
+  translation -0.871693 0.4 -1.77981
+  rotation -2.898663148710958e-16 1 -5.454999589724316e-16 -0.2583475746151688
+  name "honey jar(3)"
+}
+HoneyJar {
+  translation -0.112052 0.4 -1.79179
+  rotation -2.898663148710958e-16 1 -5.454999589724316e-16 -0.2583475746151688
+  name "honey jar(4)"
+}
+DEF beer Can {
+  translation 0.508954 0.0623157 -0.262532
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(15)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+BeerBottle {
+  translation -0.340722 3.33067e-15 -0.248289
+  name "beer bottle(7)"
+}
+CerealBox {
+  translation 1.81213 0.2 -0.126937
+  rotation -2.16321e-14 1 2.09176e-14 1.53807
+  name "cereal box(13)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+CerealBox {
+  translation 1.81586 0.2 -0.619784
+  rotation -2.16321e-14 1 2.09176e-14 1.53807
+  name "cereal box(12)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+CerealBox {
+  translation 1.79202 0.2 0.623773
+  rotation -2.16321e-14 1 2.09176e-14 1.53807
+  name "cereal box(11)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+CerealBox {
+  translation 1.7992 0.2 0.881481
+  rotation -2.16321e-14 1 2.09176e-14 1.53807
+  name "cereal box(10)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+DEF beer Can {
+  translation 1.76328 0.0623157 -0.361788
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(13)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+DEF beer Can {
+  translation 1.77675 0.0623157 -0.606702
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(12)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+DEF beer Can {
+  translation 1.78347 0.0623157 0.387181
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(10)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+DEF beer Can {
+  translation 0.485646 0.0623157 -0.472281
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(9)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+WaterBottle {
+  translation -0.118682 -0.0008481 -1.77828
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(8)"
+}
+WaterBottle {
+  translation -0.850877 -0.0008481 -1.86296
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(3)"
+}
+BiscuitBox {
+  translation -1.8652 0.2 -0.643977
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(5)"
+  size 0.14 0.18 0.08
+}
+BiscuitBox {
+  translation -1.856 0.2 -0.389073
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(4)"
+  size 0.14 0.18 0.08
+}
+BiscuitBox {
+  translation -1.85862 0.2 0.622157
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(3)"
+  size 0.14 0.18 0.08
+}
+BiscuitBox {
+  translation -1.87849 0.2 0.359087
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(2)"
+  size 0.14 0.18 0.08
+}
+DEF soda Can {
+  translation -1.78577 0.0623157 0.607652
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(8)"
+}
+DEF soda Can {
+  translation -1.81369 0.0623157 -0.879013
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(7)"
+}
+DEF soda Can {
+  translation -1.83145 0.0623157 0.146786
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(6)"
+}
+BiscuitBox {
+  translation -1.88196 0.2 0.877488
+  rotation 0.13913166934948634 -0.9899948963676906 -0.023504972877053023 -1.3080056618590815e-16
+  name "biscuit box(1)"
+  size 0.14 0.18 0.08
+}
+DEF soda Can {
+  translation -1.78161 0.0623157 0.86672
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(4)"
+}
+JamJar {
+  translation 0.383983 0.4 -1.79461
+  rotation 4.374221023942487e-15 1 -6.498897686557171e-15 -0.010306396730772481
+  name "jam jar(1)"
+}
+JamJar {
+  translation 0.109205 0.4 -1.76495
+  rotation 4.374221023942487e-15 1 -6.498897686557171e-15 -0.010306396730772481
+  name "jam jar(3)"
+}
+WaterBottle {
+  translation -0.5434470331993624 -0.0008480999852806259 0.11255531402918295
+  rotation -1.9964304499786595e-16 1 -1.7928148681676427e-16 -1.8315955963995816
+  name "water bottle(2)"
+}
+DEF beer Can {
+  translation 1.78946 0.0623157 0.874055
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(3)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+CerealBox {
+  translation 1.83411 0.2 0.174707
+  rotation -2.16321e-14 1 2.09176e-14 1.53807
+  name "cereal box(9)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+CerealBox {
+  translation 0.10584 0.0010538 -0.433352
+  rotation 0.9999999273712341 0.000348170264728994 0.00015503223357128394 -3.965020623750387e-13
+  name "cereal box(7)"
+  textureUrl [
+    "textures/cereal_box_1.jpg"
+  ]
+}
+CerealBox {
+  translation 0.120791 0.4 1.79934
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(6)"
+}
+CerealBox {
+  translation -0.399331 0.4 1.78396
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(5)"
+}
+CerealBox {
+  translation -0.631799 0.4 1.8099
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(4)"
+}
+CerealBox {
+  translation 0.634176 0.4 1.79069
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(2)"
+}
+CerealBox {
+  translation -0.894508 0.4 1.78448
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(1)"
+}
+CerealBox {
+  translation 0.863568 0.4 1.78156
+  rotation 6.146652549061907e-12 0.9999999999999999 -2.7484925409603585e-11 4.7618628308945086e-07
+  name "cereal box(3)"
+}
+BeerBottle {
+  translation 0.142581 -8.88178e-16 1.83034
+  name "beer bottle(5)"
+}
+BeerBottle {
+  translation 0.38051 -4.13003e-14 1.81895
+  rotation 0 1 0 0.20944
+  name "beer bottle(4)"
+}
+BeerBottle {
+  translation -0.889219 1.33227e-15 1.82095
+  name "beer bottle(3)"
+}
+BeerBottle {
+  hidden linearVelocity_0 -24.533497705830285 -121.20931307733187 -90.69230333238659
+  hidden angularVelocity_0 -7676.574626898638 6253.7003053960825 -1400.5122234186215
+  translation -765.4165680627622 3607.5808639858933 -10214.846165084897
+  rotation -0.01717062837019209 0.7231024515568836 -0.6905273449138691 2.7429271994000866
+  name "beer bottle(1)"
+}
+BiscuitBox {
+  translation 0.263522 0.00117152 0.270185
+  rotation -0.21190804304588054 0.8874775745505687 -0.40924141525791957 1.377308523551685e-16
+  name "biscuit box(6)"
+  size 0.14 0.18 0.08
+}
+CerealBox {
+  translation 0.429713 0.0010538000288151939 0.516677
+  rotation 1.93851544401585e-12 1 2.200274942914555e-11 1.015030000061333e-06
+  name "cereal box(18)"
+}
+WaterBottle {
+  translation -0.5349691659857297 -0.0008480999852806259 0.24989257017735858
+  rotation 3.4928826891551556e-17 0.9999999999999999 -2.374969397783444e-16 -1.8315955791008203
+  name "water bottle(7)"
+}
+DEF A Cabinet {
+  translation -2 0 0
+  rotation 0 1 0 1.5642296938995748
+  name "cabinet(4)"
+  depth 0.3
+  innerThickness 0.001
+  outerThickness 0.001
+  rowsHeights [
+    0.2, 0.4
+  ]
+  columnsWidths [
+    0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25
+  ]
+  layout [
+    "Shelf(1,2,8, 0)"
+    "Shelf( 1, 1, 0, 1)"
+    "Shelf(2, 1, 0, 1)"
+    "Shelf( 3, 1, 0, 1)"
+    "Shelf( 4, 1, 0, 1)"
+    "Shelf( 5, 1, 0, 1)"
+    "Shelf( 6, 1, 0, 1)"
+    "Shelf( 7, 1, 0, 1)"
+    "Shelf( 1, 2, 0, 1)"
+    "Shelf( 2, 2, 0, 1)"
+    "Shelf( 3, 2, 0, 1)"
+    "Shelf(4, 2, 0, 1)"
+    "Shelf(5, 2, 0, 1)"
+    "Shelf(6, 2, 0, 1)"
+    "Shelf(7, 2, 0, 1)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.43529411764705883 0.3058823529411765 0.27450980392156865
+  }
+}
+DEF C Cabinet {
+  translation 2 0 0
+  rotation 0 -1 0 1.5707996938995747
+  name "cabinet(2)"
+  depth 0.3
+  innerThickness 0.001
+  outerThickness 0.001
+  rowsHeights [
+    0.2, 0.4
+  ]
+  columnsWidths [
+    0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25
+  ]
+  layout [
+    "Shelf(1,2,8, 0)"
+    "Shelf( 1, 1, 0, 1)"
+    "Shelf(2, 1, 0, 1)"
+    "Shelf( 3, 1, 0, 1)"
+    "Shelf( 4, 1, 0, 1)"
+    "Shelf( 5, 1, 0, 1)"
+    "Shelf( 6, 1, 0, 1)"
+    "Shelf( 7, 1, 0, 1)"
+    "Shelf( 1, 2, 0, 1)"
+    "Shelf( 2, 2, 0, 1)"
+    "Shelf( 3, 2, 0, 1)"
+    "Shelf(4, 2, 0, 1)"
+    "Shelf(5, 2, 0, 1)"
+    "Shelf(6, 2, 0, 1)"
+    "Shelf(7, 2, 0, 1)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.43529411764705883 0.3058823529411765 0.27450980392156865
+  }
+}
+DEF D Cabinet {
+  translation 0 0 -2
+  rotation 0 -1 0 0
+  name "cabinet(3)"
+  depth 0.3
+  innerThickness 0.001
+  outerThickness 0.001
+  rowsHeights [
+    0.4, 0.2
+  ]
+  columnsWidths [
+    0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25
+  ]
+  layout [
+    "Shelf(1,2,8, 0)"
+    "Shelf( 1, 1, 0, 1)"
+    "Shelf(2, 1, 0, 1)"
+    "Shelf( 3, 1, 0, 1)"
+    "Shelf( 4, 1, 0, 1)"
+    "Shelf( 5, 1, 0, 1)"
+    "Shelf( 6, 1, 0, 1)"
+    "Shelf( 7, 1, 0, 1)"
+    "Shelf( 1, 2, 0, 1)"
+    "Shelf( 2, 2, 0, 1)"
+    "Shelf( 3, 2, 0, 1)"
+    "Shelf(4, 2, 0, 1)"
+    "Shelf(5, 2, 0, 1)"
+    "Shelf(6, 2, 0, 1)"
+    "Shelf(7, 2, 0, 1)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.43529411764705883 0.3058823529411765 0.27450980392156865
+  }
+}
+DEF B Cabinet {
+  translation 0 0 2
+  rotation 0 -1 0 -3.1415853071795863
+  name "cabinet(1)"
+  depth 0.3
+  innerThickness 0.001
+  outerThickness 0.001
+  rowsHeights [
+    0.4, 0.4
+  ]
+  columnsWidths [
+    0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25
+  ]
+  layout [
+    "Shelf(1,2,8, 0)"
+    "Shelf( 1, 1, 0, 1)"
+    "Shelf(2, 1, 0, 1)"
+    "Shelf( 3, 1, 0, 1)"
+    "Shelf( 4, 1, 0, 1)"
+    "Shelf( 5, 1, 0, 1)"
+    "Shelf( 6, 1, 0, 1)"
+    "Shelf( 7, 1, 0, 1)"
+    "Shelf( 1, 2, 0, 1)"
+    "Shelf( 2, 2, 0, 1)"
+    "Shelf( 3, 2, 0, 1)"
+    "Shelf(4, 2, 0, 1)"
+    "Shelf(5, 2, 0, 1)"
+    "Shelf(6, 2, 0, 1)"
+    "Shelf(7, 2, 0, 1)"
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.43529411764705883 0.3058823529411765 0.27450980392156865
+  }
+}
+DEF REPOSITORY Solid {
+  translation -0.00197906 0.001 -0.00408673
+  scale 5 5 5
+  children [
+    DEF repository Shape {
+      appearance PBRAppearance {
+        baseColor 0.792156862745098 0.6431372549019608 0.5686274509803921
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.25 0.0001 0.25
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE repository
+}
+DEF beer Can {
+  translation 1.7581 0.0623157 0.13775
+  rotation -2.8302480725825477e-14 0.9999999999999999 -9.901357178167141e-15 0.01018615726044233
+  name "can(14)"
+  textureUrl [
+    "textures/can_beer_base_color.jpg"
+  ]
+}
+BeerBottle {
+  translation -0.329404 -5.32907e-15 -0.513405
+  name "beer bottle(6)"
+}
+DEF soda Can {
+  translation -0.250184 0.0623157 0.522311
+  rotation 2.1879727847904113e-10 -1 5.091000141105866e-11 1.705790483397231e-06
+  name "can(11)"
+}
+DEF R1 Solid {
+  translation -0.328584 0.035 -0.022816
+  scale 4 4 4
+  children [
+    DEF r1 Shape {
+      appearance PBRAppearance {
+        baseColor 0.41568627450980394 0.28627450980392155 0.2549019607843137
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15625 0.05 0.005
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE r1
+}
+DEF R2 Solid {
+  translation -0.00070234 0.035 0.279833
+  rotation 0 1 0 1.5707996938995747
+  scale 4.2 4.2 4.2
+  children [
+    USE r1
+  ]
+  name "solid(4)"
+  boundingObject USE r1
+}
+DEF R3 Solid {
+  translation 0.31182 0.035 -0.00701387
+  scale 4 4 4
+  children [
+    USE r1
+  ]
+  name "solid(3)"
+  boundingObject USE r1
+}
+DEF R4 Solid {
+  translation -0.00852162 0.035 -0.312751
+  rotation 0 1 0 1.5707996938995747
+  scale 4 4 4
+  children [
+    USE r1
+  ]
+  name "solid(5)"
+  boundingObject USE r1
+}
+BeerBottle {
+  translation 0.864786 -2.22045e-15 1.78761
+  name "beer bottle(2)"
+}
