@@ -27,8 +27,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.44330159451457707 0.8802842001329713 0.16906632809961936 1.2422201236359884
-  position 9.021792278716479 5.64425261744964 3.3384038321228005
+  orientation 0.6847104577616574 -0.4388315827608381 -0.5818921128555008 5.069686743468399
+  position 2.276166848464585 8.090733710569728 4.652127982423641
 }
 Background {
   skyColor [
@@ -78,22 +78,22 @@ DEF soda Can {
   name "can(1)"
 }
 WaterBottle {
-  translation 0.868232 -0.00107401 -2.74134
+  translation 0.868232 -0.00107401 -3.74134
   rotation 5.2766695125674906e-05 0.9999999778375008 -0.0002038152929994864 -1.831595618862301
   name "water bottle(1)"
 }
 WaterBottle {
-  translation 0.629249 -0.00107341 -2.74428
+  translation 0.629249 -0.00107341 -3.74428
   rotation 0.00014125424348112843 0.9999999754565628 -0.00017068717658438756 -1.831595620187073
   name "water bottle(6)"
 }
 WaterBottle {
-  translation -0.378319 -0.0010981 -2.79105
+  translation -0.378319 -0.0010981 -3.79105
   rotation 5.12432157664563e-17 0.9999999999999999 -4.4117239901237314e-17 -1.8315955963995816
   name "water bottle(5)"
 }
 WaterBottle {
-  translation 0.375493 -0.00107374 -2.74333
+  translation 0.375493 -0.00107374 -3.74333
   rotation 0.00011299259540124308 0.9999999768302885 -0.0001832268969528971 -1.8315956190353793
   name "water bottle(4)"
 }
@@ -101,38 +101,38 @@ Floor {
   name "floor(4)"
 }
 DEF soda Can {
-  translation -2.79564 0.0620657 0.3787
+  translation -3.79564 0.0620657 0.3787
   rotation 1.6262761882085327e-10 -0.9999999999999999 4.166072555208168e-11 1.7057904834005042e-06
   name "can(5)"
 }
 DEF soda Can {
-  translation -2.81336 0.0620657 -0.110893
+  translation -3.81336 0.0620657 -0.110893
   rotation 2.69002003346991e-10 -0.9999999999999999 4.137607070471085e-11 1.7057904833837046e-06
   name "can(2)"
 }
 BiscuitBox {
-  translation -2.83118 0.201422 -0.125182
+  translation -3.83118 0.201422 -0.125182
   rotation 0.09015574915560846 -0.99589429863312 -0.00815394654369481 -1.256840780119161e-16
   name "biscuit box(8)"
   size 0.14 0.18 0.08
 }
 BeerBottle {
-  translation -0.142497 0.00146076 2.81403
+  translation -0.142497 0.00146076 3.81403
   rotation -0.7940274616475758 0.23073895657910237 0.5623876990709297 -8.793782955232443e-17
   name "beer bottle(8)"
 }
 HoneyJar {
-  translation -0.603524 0.400951 -2.79268
+  translation -0.603524 0.400951 -3.79268
   rotation -1.2726601279869119e-16 1 -1.7592206510950833e-17 -0.25834757461516883
   name "honey jar(1)"
 }
 HoneyJar {
-  translation -0.871693 0.400951 -2.77981
+  translation -0.871693 0.400951 -3.77981
   rotation -5.23722265437741e-16 1 -1.9089299779940186e-16 -0.25834757461516883
   name "honey jar(3)"
 }
 HoneyJar {
-  translation -0.112052 0.400951 -2.79179
+  translation -0.112052 0.400951 -3.79179
   rotation -1.6385151455463508e-16 1 2.24928631912911e-16 -0.25834757461516883
   name "honey jar(4)"
 }
@@ -150,7 +150,7 @@ BeerBottle {
   name "beer bottle(7)"
 }
 CerealBox {
-  translation 2.81213 0.201304 -0.126937
+  translation 3.81213 0.201304 -0.126937
   rotation -2.8366507383051373e-18 1 1.947412239944226e-17 1.5380700000000003
   name "cereal box(13)"
   textureUrl [
@@ -158,7 +158,7 @@ CerealBox {
   ]
 }
 CerealBox {
-  translation 2.81586 0.201304 -0.619784
+  translation 3.81586 0.201304 -0.619784
   rotation -1.3511742226928469e-17 1 3.0100518311971517e-18 1.5380700000000003
   name "cereal box(12)"
   textureUrl [
@@ -166,7 +166,7 @@ CerealBox {
   ]
 }
 CerealBox {
-  translation 2.79202 0.201303 0.623773
+  translation 3.79202 0.201303 0.623773
   rotation -5.344153733829375e-05 0.9999999971422342 5.347460824595486e-05 1.538070002925897
   name "cereal box(11)"
   textureUrl [
@@ -174,7 +174,7 @@ CerealBox {
   ]
 }
 CerealBox {
-  translation 2.7992 0.201304 0.881481
+  translation 3.7992 0.201304 0.881481
   rotation -1.2768306786856485e-05 0.9999999998368694 1.2776208121369203e-05 1.5380700001670637
   name "cereal box(10)"
   textureUrl [
@@ -182,7 +182,7 @@ CerealBox {
   ]
 }
 DEF beer Can {
-  translation 2.76328 0.0620657 -0.361788
+  translation 3.76328 0.0620657 -0.361788
   rotation 1.7731546591513374e-14 1 6.281878998466943e-15 0.01018615726044238
   name "can(13)"
   textureUrl [
@@ -190,7 +190,7 @@ DEF beer Can {
   ]
 }
 DEF beer Can {
-  translation 2.77675 0.0620657 -0.606702
+  translation 3.77675 0.0620657 -0.606702
   rotation 5.943675569386079e-15 1 -9.310723850865793e-15 0.010186157260442346
   name "can(12)"
   textureUrl [
@@ -198,7 +198,7 @@ DEF beer Can {
   ]
 }
 DEF beer Can {
-  translation 2.78347 0.0620657 0.387181
+  translation 3.78347 0.0620657 0.387181
   rotation 1.2930497001553372e-14 1 9.7541781978673e-16 0.010186157260442343
   name "can(10)"
   textureUrl [
@@ -214,72 +214,72 @@ DEF beer Can {
   ]
 }
 WaterBottle {
-  translation -0.118682 -0.0010981 -2.77828
+  translation -0.118682 -0.0010981 -3.77828
   rotation 2.1745692926854933e-17 0.9999999999999999 -7.82739611987813e-17 -1.8315955963995816
   name "water bottle(8)"
 }
 WaterBottle {
-  translation -0.850877 -0.0010981 -2.86296
+  translation -0.850877 -0.0010981 -3.86296
   rotation -1.4522164070986564e-17 0.9999999999999999 -1.0955072313580265e-16 -1.8315955963995816
   name "water bottle(3)"
 }
 BiscuitBox {
-  translation -2.8652 0.201422 -0.643977
+  translation -3.8652 0.201422 -0.643977
   rotation 0.31044951636959767 -0.9386054394713831 -0.150469022661193 -1.2940606293661463e-16
   name "biscuit box(5)"
   size 0.14 0.18 0.08
 }
 BiscuitBox {
-  translation -2.856 0.201422 -0.389073
+  translation -3.856 0.201422 -0.389073
   rotation 0.07712204849554392 -0.9967372738800039 0.02381168818267788 -1.291157408458965e-16
   name "biscuit box(4)"
   size 0.14 0.18 0.08
 }
 BiscuitBox {
-  translation -2.85862 0.201422 0.622157
+  translation -3.85862 0.201422 0.622157
   rotation 0.22502851774410737 -0.9627169174013113 -0.1501276228786925 -1.2970034057116175e-16
   name "biscuit box(3)"
   size 0.14 0.18 0.08
 }
 BiscuitBox {
-  translation -2.87849 0.201422 0.359087
+  translation -3.87849 0.201422 0.359087
   rotation 0.1338015343973305 -0.9896035762443488 -0.05274382691192813 -1.3601115418648424e-16
   name "biscuit box(2)"
   size 0.14 0.18 0.08
 }
 DEF soda Can {
-  translation -2.78577 0.0620657 0.607652
+  translation -3.78577 0.0620657 0.607652
   rotation 2.52101366066697e-10 -0.9999999999999999 1.390925561578431e-12 1.7057904833148436e-06
   name "can(8)"
 }
 DEF soda Can {
-  translation -2.81369 0.0620657 -0.879013
+  translation -3.81369 0.0620657 -0.879013
   rotation 1.6014218702230912e-10 -1 -1.5765789103833837e-11 1.7057904833802775e-06
   name "can(7)"
 }
 DEF soda Can {
-  translation -2.83145 0.0620657 0.146786
+  translation -3.83145 0.0620657 0.146786
   rotation 2.6651659865369575e-10 -0.9999999999999999 1.5734319926249927e-11 1.705790483395872e-06
   name "can(6)"
 }
 BiscuitBox {
-  translation -2.88196 0.201422 0.877488
+  translation -3.88196 0.201422 0.877488
   rotation 0.1724639892791399 -0.9815917498894778 0.08205978887882488 -1.3737585658605046e-16
   name "biscuit box(1)"
   size 0.14 0.18 0.08
 }
 DEF soda Can {
-  translation -2.78161 0.0620657 0.86672
+  translation -3.78161 0.0620657 0.86672
   rotation 2.1780308318469321e-10 -1 1.4590164215231922e-12 1.7057904833124858e-06
   name "can(4)"
 }
 JamJar {
-  translation 0.383983 0.400951 -2.79461
+  translation 0.383983 0.400951 -3.79461
   rotation 2.047936355406081e-14 1 -7.43921539072387e-15 -0.010306396730772422
   name "jam jar(1)"
 }
 JamJar {
-  translation 0.109205 0.400951 -2.76495
+  translation 0.109205 0.400951 -3.76495
   rotation 2.9893328736148216e-14 0.9999999999999999 5.586462774096089e-15 -0.010306396730772485
   name "jam jar(3)"
 }
@@ -289,7 +289,7 @@ WaterBottle {
   name "water bottle(2)"
 }
 DEF beer Can {
-  translation 2.78946 0.0620657 0.874055
+  translation 3.78946 0.0620657 0.874055
   rotation 9.311272651314029e-15 1 8.78765057273598e-15 0.010186157260442382
   name "can(3)"
   textureUrl [
@@ -297,7 +297,7 @@ DEF beer Can {
   ]
 }
 CerealBox {
-  translation 2.83411 0.201304 0.174707
+  translation 3.83411 0.201304 0.174707
   rotation -1.441007045035799e-17 1 -7.139856187152785e-18 1.5380700000000003
   name "cereal box(9)"
   textureUrl [
@@ -313,47 +313,47 @@ CerealBox {
   ]
 }
 CerealBox {
-  translation 0.120791 0.401304 2.79934
+  translation 0.120791 0.401304 3.79934
   rotation -0.9998073061849607 0.0196303460270318 -3.7458121324466893e-06 2.4257661228622886e-05
   name "cereal box(6)"
 }
 CerealBox {
-  translation -0.399331 0.401302 2.78396
+  translation -0.399331 0.401302 3.78396
   rotation -0.9999974509033287 0.002257913374866282 -3.7465267453805918e-06 0.00021089663344566446
   name "cereal box(5)"
 }
 CerealBox {
-  translation -0.631799 0.401304 2.8099
+  translation -0.631799 0.401304 3.8099
   rotation -6.249693528087546e-12 0.9999999999999999 -3.584346317276014e-11 4.7618628308925826e-07
   name "cereal box(4)"
 }
 CerealBox {
-  translation 0.634176 0.401303 2.79069
+  translation 0.634176 0.401303 3.79069
   rotation -0.9999923789820875 0.0039040957607292394 -3.7465081895385287e-06 0.00012197095767014247
   name "cereal box(2)"
 }
 CerealBox {
-  translation -0.894508 0.401302 2.78448
+  translation -0.894508 0.401302 3.78448
   rotation -0.9999972625219292 0.0023398578185512935 -3.74652655187828e-06 0.00020351079559281128
   name "cereal box(1)"
 }
 CerealBox {
-  translation 0.863568 0.401301 2.78156
+  translation 0.863568 0.401301 3.78156
   rotation -0.9999981258001407 0.0019360739060029005 -3.7465288637708294e-06 0.00024595463234843246
   name "cereal box(3)"
 }
 BeerBottle {
-  translation 0.142581 0.00146076 2.83034
+  translation 0.142581 0.00146076 3.83034
   rotation -0.9224828056652266 0.10890352527770976 -0.3703586038343094 -9.325318913372232e-17
   name "beer bottle(5)"
 }
 BeerBottle {
-  translation 0.38051 0.00146076 2.81895
+  translation 0.38051 0.00146076 3.81895
   rotation -7.270033640906631e-16 1 -1.0073575054288277e-15 0.20944000000000002
   name "beer bottle(4)"
 }
 BeerBottle {
-  translation -0.889219 0.00146076 2.82095
+  translation -0.889219 0.00146076 3.82095
   rotation -0.17897805309844655 0.14076874268745346 0.9737304645492423 -1.9974754329480225e-16
   name "beer bottle(3)"
 }
@@ -379,7 +379,7 @@ WaterBottle {
   name "water bottle(7)"
 }
 DEF A Cabinet {
-  translation -3 0 0
+  translation -4 0 0
   rotation 0 1 0 1.5642296938995748
   name "cabinet(4)"
   depth 0.3
@@ -413,7 +413,7 @@ DEF A Cabinet {
   }
 }
 DEF C Cabinet {
-  translation 3 0 0
+  translation 4 0 0
   rotation 0 -1 0 1.5707996938995747
   name "cabinet(2)"
   depth 0.3
@@ -447,7 +447,7 @@ DEF C Cabinet {
   }
 }
 DEF D Cabinet {
-  translation 0 0 -3
+  translation 0 0 -4
   rotation 0 -1 0 0
   name "cabinet(3)"
   depth 0.3
@@ -481,7 +481,7 @@ DEF D Cabinet {
   }
 }
 DEF B Cabinet {
-  translation 0 0 3
+  translation 0 0 4
   rotation 0 -1 0 -3.1415853071795863
   name "cabinet(1)"
   depth 0.3
@@ -533,7 +533,7 @@ DEF REPOSITORY Solid {
   boundingObject USE repository
 }
 DEF beer Can {
-  translation 2.7581 0.0620657 0.13775
+  translation 3.7581 0.0620657 0.13775
   rotation 2.1633474850172025e-14 0.9999999999999999 -8.004935094513903e-15 0.01018615726044236
   name "can(14)"
   textureUrl [
@@ -598,15 +598,78 @@ DEF R4 Solid {
   boundingObject USE r1
 }
 BeerBottle {
-  translation 0.864786 0.00146076 2.78761
+  translation 0.864786 0.00146076 3.78761
   rotation -0.6175147200820648 0.6875637676538912 0.3820099944917085 -7.96043150313179e-17
   name "beer bottle(2)"
 }
 Robot {
-  translation 0.5208241644774044 -0.03663510116700325 1.1957450830388696
-  rotation -0.0013402633915950593 0.9999974931708351 -0.0017936962081065 1.5682780766150546
+  translation 1.11458 -0.036635 -0.0867876
+  rotation -0.0024128585459995185 0.9999938224493004 -0.0025560079957118367 3.141592653589793
   scale 1.4 1.4 1.4
   children [
+    DEF Cam Camera {
+      translation 0.16 0.3 0.01
+      rotation 0 1 0 1.5707996938995747
+      children [
+        Transform {
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.01
+                radius 0.01
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_behind"
+      width 256
+      height 128
+      recognition Recognition {
+      }
+    }
+    DistanceSensor {
+      translation 0.176 0.727 0
+      children [
+        Transform {
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.005
+                radius 0.005
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DEF Cam Camera {
+      translation 0.23 0.16 0
+      rotation 0 1 0 -1.5707996938995747
+      children [
+        Transform {
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.01
+                radius 0.01
+              }
+            }
+          ]
+        }
+      ]
+      name "camera_front"
+      width 256
+      height 128
+      recognition Recognition {
+      }
+    }
     Compass {
       name "compass_youbot"
     }
@@ -619,20 +682,7 @@ Robot {
       physics Physics {
       }
     }
-    DEF Kinect_behind Kinect {
-      translation -0.24 0.09 0
-      rotation 0 1 0 1.5707996938995747
-      name "Kinect_behind"
-      cameraName "kinect_behind"
-    }
-    DEF Kinect_front Kinect {
-      translation 0.23 0.12 -0.07
-      rotation 0 -1 0 1.5708
-      name "Kinect_front"
-      cameraName "kinect_front"
-    }
     Youbot {
-      translation 0 0.12 -0.07
       rotation -1 0 0 1.5708
       name "youbot"
       controller "ros"

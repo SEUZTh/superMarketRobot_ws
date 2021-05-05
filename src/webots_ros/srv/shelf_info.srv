@@ -1,0 +1,4 @@
+uint16 camera
+int8 CurrentShelf
+---
+bool isEmpty

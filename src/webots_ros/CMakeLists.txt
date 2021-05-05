@@ -142,6 +142,9 @@ find_package(OpenCV REQUIRED COMPONENTS)
     supervisor_set_label.srv
     supervisor_virtual_reality_headset_get_orientation.srv
     supervisor_virtual_reality_headset_get_position.srv
+
+    # 张天浩添加
+    shelf_info.srv
   )
 
 ## Generate added messages and services with any dependencies listed here
@@ -161,7 +164,7 @@ find_package(OpenCV REQUIRED COMPONENTS)
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+   INCLUDE_DIRS include
 #  LIBRARIES webots_ros
    CATKIN_DEPENDS roscpp rospy std_msgs sensor_msgs message_runtime tf
 #  DEPENDS system_lib
@@ -172,7 +175,9 @@ catkin_package(
 ###########
 
 include_directories(
-  ${catkin_INCLUDE_DIRS}
+    ${catkin_INCLUDE_DIRS}
+    $ENV{WEBOTS_HOME}/include/controller/cpp
+    $ENV{WEBOTS_HOME}/include/controller/c
 )
 
 
@@ -252,22 +257,31 @@ target_link_libraries(pioneer3at
 add_executable(supermarket_robot src/supermarket_robot.cpp)
 
 add_dependencies(supermarket_robot webots_ros_generate_messages_cpp)
-
 target_link_libraries(supermarket_robot
 	${catkin_LIBRARIES}
 	${OpenCV_LIBRARIES}
 )
 
 #instructions for my_youbot node
-
 add_executable(my_youbot src/my_youbot.cpp)
 
 add_dependencies(my_youbot webots_ros_generate_messages_cpp)
 
 target_link_libraries(my_youbot
 	${catkin_LIBRARIES}
-  ${OpenCV_LIBRARIES}
+    ${OpenCV_LIBRARIES}
 )
+
+# # findEmptyShelf
+# link_directories(
+#   ${catkin_LIB_DIRS}
+#   $ENV{WEBOTS_HOME}/lib 
+#   )
+# add_executable(find_empty_shelf_server src/find_empty_shelf_server.cpp)
+# add_dependencies(find_empty_shelf_server ${PROJECT_NAME}_generate_messages_cpp ${${PROJECT_NAME}_EXPORTED_TARGETS} 
+# ${catkin_EXPORTED_TARGETS}) # 让这句话先执行以先去生成消息文件
+# target_link_libraries(find_empty_shelf_server ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} controller)
+
 
 
 #############
