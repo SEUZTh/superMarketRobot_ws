@@ -4,6 +4,7 @@
 import rospy
 import smach
 import smach_ros
+from pkg_move.move2Pos import move2Pos
 
 
 class toFindEmptyShelf(smach.State):
@@ -21,7 +22,9 @@ class toFindEmptyShelf(smach.State):
     def execute(self, userdata):
         rospy.loginfo('Executing state toFindEmptyShelf...')
         # 到一个货架的前面
-        #
+        userdata.shelfPos_in[userdata.tfes_full_shelf_count_in]
+        m = move2Pos("Goto", 0.05, (0.7, -1.6), 1.5)
+        m.move2Pos_pub()
 
         # 识别空货架位置及需要摆放的物体
         #
@@ -89,11 +92,8 @@ def main():
     rospy.init_node('smach_state_machine')
     sm = smach.StateMachine(outcomes=['outcome_finish'])
     # 站在此位置对货架进行识别，类型为浮点型
-    sm.userdata.dest_shelf_pos = [[(1.11458, -0.036635, -0.0867876),
-                                   (0., 0., 0., 0.)], [(1, 1, 0),
-                                                       (0, 0, 0, 0)],
-                                  [(2, 2, 0), (0, 0, 0, 0)],
-                                  [(3, 3, 0), (0, 0, 0, 0)]]
+    sm.userdata.dest_shelf_pos = [[(0.0, 0.0), 0.0], [(0.0, 0.0), 0.0],
+                                  [(0.0, 0.0), 0.0], [(0.0, 0.0), 0.0]]
     # 空货架位置声明
     sm.userdata.obj_put_pos = [(-1, -1, -1), (0, 0, 0, 0)]
     # 需要去搬运的商品的名称

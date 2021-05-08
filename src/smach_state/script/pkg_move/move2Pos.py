@@ -18,7 +18,10 @@ class move2Pos:
         mv.moveType = self.moveType
         mv.speed = self.speed
         mv.x = self.des_pos[0]
+        print mv.x
+
         mv.z = self.des_pos[1]
+        print mv.z
         mv.alphe = self.alphe
         rospy.sleep(0.3)
         pub.publish(mv)
@@ -26,5 +29,10 @@ class move2Pos:
 
 if __name__ == '__main__':
     rospy.init_node('move2Pos_pub', anonymous=False)
-    m = move2Pos("Goto", 0.05, (0.7, -1.6), 1.5)
+    # m = move2Pos("Goto", 0.05, (1.3, 0), 1.5)
+    # m.move2Pos_pub()
+
+    # 货架 1 拍照位置
+    m = move2Pos("Go forward", 0.01, (1.1, 0), 0)
     m.move2Pos_pub()
+    rospy.sleep()

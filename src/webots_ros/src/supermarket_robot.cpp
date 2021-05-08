@@ -1,8 +1,10 @@
+
 #include "ros/ros.h"
 #include <sensor_msgs/Image.h>
 #include <sensor_msgs/Imu.h>
 #include <sensor_msgs/LaserScan.h>
 #include <sensor_msgs/NavSatFix.h>
+#include <geometry_msgs/PointStamped.h>
 #include <signal.h>
 #include <std_msgs/String.h>
 #include <tf/transform_broadcaster.h>

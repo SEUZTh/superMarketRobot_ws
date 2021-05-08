@@ -27,8 +27,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation 0.6847104577616574 -0.4388315827608381 -0.5818921128555008 5.069686743468399
-  position 2.276166848464585 8.090733710569728 4.652127982423641
+  orientation 0.9071928634425699 -0.036968966675800484 -0.41908758514395783 5.215678210055593
+  position 0.3296611553080136 3.7342513851459462 2.2951777008368532
 }
 Background {
   skyColor [
@@ -608,7 +608,7 @@ Robot {
   scale 1.4 1.4 1.4
   children [
     DEF Cam Camera {
-      translation 0.16 0.3 0.01
+      translation 0.14 0.3 0.01
       rotation 0 1 0 1.5707996938995747
       children [
         Transform {
@@ -628,6 +628,7 @@ Robot {
       width 256
       height 128
       recognition Recognition {
+        maxRange 200
       }
     }
     DistanceSensor {
@@ -668,6 +669,7 @@ Robot {
       width 256
       height 128
       recognition Recognition {
+        maxRange 200
       }
     }
     Compass {
